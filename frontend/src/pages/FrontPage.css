@@ -1,0 +1,46 @@
+.frontpage-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff4d4d 0%, #cc0000 100%);
+  text-align: center;
+}
+
+.hero-section {
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 20px;
+}
+
+.hero-section h1 {
+  color: #cc0000;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.donor-btn {
+  background: #cc0000;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.donor-btn:hover {
+  background: #ff4d4d;
+  transform: scale(1.05);
+}
